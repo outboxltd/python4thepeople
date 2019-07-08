@@ -1,4 +1,3 @@
-    
 def fun_number():
     print("please enter number")
     num = input()
