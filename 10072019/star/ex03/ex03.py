@@ -1,11 +1,18 @@
+def fibo(x):
+        if x >2:
+                return x
+        else:
+                return(fibo(x-1),fibo(x-2))
 
-def Make_Fibonacci(n):
-    if n == 100: return n
-    # elif n == 1: return 1
-    else:
-        return Make_Fibonacci(n+1) 
 
-print(Make_Fibonacci(1))
+
+# def Make_Fibonacci(n):
+#     if n == 100: return n
+#     # elif n == 1: return 1
+#     else:
+#         return Make_Fibonacci(n+1) 
+
+# print(Make_Fibonacci(1))
 
 
 
