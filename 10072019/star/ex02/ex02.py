@@ -6,4 +6,9 @@ def getMax(listo, x):
         return the_func if the_func > listo[0] else listo[0]
      
 
-print(getMax([10, 2, 300, 4, 5], 0))
+print("the max is : " , getMax([10, 2, 300, 4, 5], 0))
+
+
+# demo_array = [2,4,6,8,10.12,14]
+
+# print(demo_array[1:])
