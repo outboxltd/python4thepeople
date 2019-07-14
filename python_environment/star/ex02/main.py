@@ -1,10 +1,16 @@
-from moda import oprint_name
-from modb import print_nickname 
+from module1 import get_letters
+from module4 import get_letters as get_letters4
+from module5 import get_letters5
+from last.w_z import get_last_letters
+from last.t_v import get_letters as get_t_v
+from last.medium.q_s import q_s
+from .middle.m_p import m_p
 
-if __name__ == "__main__":
-    pass
+def get_alphabet():
+    return get_letters() + get_letters4() + get_letters5() + \
+           middle.m_p() + q_s.get_letters() + get_t_v() + get_last_letters()
 
-oprint_name()
-print_nickname()
+        #    hel
 
 
+print(get_alphabet())
