@@ -18,8 +18,8 @@ def ask_for_more():
             
 
 while user_wants_more:
-    a = random.randint(1, 20)
-    b = random.randint(1, 20)
+    a = random.randint(1, 50)
+    b = random.randint(1, 50)
     op, fn = random.choice(operators)
     prompt = "What is {} {} {}?\n".format(a, op, b)
     if int(input(prompt)) == fn(a, b):
